@@ -1,0 +1,22 @@
+.card {
+  max-width: "100%";
+}
+
+.card:hover{
+  box-shadow:5px 5px 15px 3px gray ;
+
+}
+
+.media {
+  height: 240px;
+}
+
+.cardActions {
+  display: flex;
+  margin: 0 10px;
+  justify-content: "space-between";
+}
+
+.author {
+  display: flex;
+}

@@ -1,12 +1,15 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import Nav from "../Nav/Nav"
+import Carousal from '../UI/Carousal'
 
 const Home = () => {
     return (
-        <div>
+        <React.Fragment>
         <Nav/>
-            Home
-        </div>
+            <Carousal/>
+        <Footer/>
+        </React.Fragment>
     )
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Nav from "../Nav/Nav";
+import Footer from "../Footer/Footer"
 import { db } from "../../firebase";
 import {
   Grid,
@@ -135,6 +136,7 @@ const ContactUs = () => {
           </CardContent>
         </Card>
       </Grid>
+      <Footer/>
     </div>
   );
 };

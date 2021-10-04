@@ -6,7 +6,7 @@ const Footer = () => {
         <footer style={{padding: "0 50px", backgroundColor: "lightgray"}}>
             <Typography variant="h6" align="center" gutterBottom>Footer</Typography>
             <Typography variant="subtitle1" align="center" color="textSecondary">
-                Copyright 2021 @sharmavipul9756
+                Copyright 2021 @Teamdowhile2021
             </Typography>
         </footer>
     )
